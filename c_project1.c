@@ -318,10 +318,8 @@ int main()
         printf("Do you want to play again?(y/n) ");
         scanf(" %c", &m);
     } while (m == 'y');
-
-    {
-        printf("Thank you. Please visit again!!");
-    }
+        printf("Thank you. Please visit again!!\n\n");
+        // added spacing and removed extra block, Owenb135
 
     return 0;
 }
